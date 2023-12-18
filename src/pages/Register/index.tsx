@@ -1,7 +1,5 @@
 import { FormEventHandler, useState } from 'react'
-import { AppLink, Modal } from '@/components'
-import { FormInput } from '@/components'
-import Button from '@/components/Button/Button'
+import { AppLink, Modal, FormInput, Button } from '@/components'
 
 function Register() {
   const [name, setName] = useState('')
